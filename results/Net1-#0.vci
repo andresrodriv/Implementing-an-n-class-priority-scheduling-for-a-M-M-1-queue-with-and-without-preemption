@@ -1,0 +1,123 @@
+file 14135200 1586859905                                        
+version 2
+run Net1-0-20200414-12:24:58-2821
+attr configname Net1
+attr datetime 20200414-12:24:58
+attr experiment Net1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Net
+attr processid 2821
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.class1.interArrivalTime exponential(0.20s)
+param **.class2.interArrivalTime exponential(0.25s)
+param **.class3.interArrivalTime exponential(0.30s)
+param **.class4.interArrivalTime exponential(0.35s)
+param **.class5.interArrivalTime exponential(0.40s)
+param **.sys.serviceTimeclass1 exponential(0.02s)
+param **.sys.serviceTimeclass2 exponential(0.01s)
+param **.sys.serviceTimeclass3 exponential(0.03s)
+param **.sys.serviceTimeclass4 exponential(0.04s)
+param **.sys.serviceTimeclass5 exponential(0.005s)
+param **.sys.policy 1
+
+vector 0 Net.sys qlen:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 1 Net.sys queueingTime:vector ETV
+attr interpolationmode none
+attr title "queueing time at the queue, vector"
+attr unit s
+vector 2 Net.sys queueingTimeclass1:vector ETV
+attr interpolationmode none
+attr title "queueing time at the queue, vector"
+attr unit s
+vector 3 Net.sys responseTime:vector ETV
+attr interpolationmode none
+attr title "response time at end of service, vector"
+attr unit s
+vector 4 Net.sys responseTimeclass1:vector ETV
+attr interpolationmode none
+attr title "response time at end of service, vector"
+attr unit s
+vector 5 Net.sys extendedServiceTimeclass1:vector ETV
+attr interpolationmode none
+attr title "extended response time at end of service, vector"
+attr unit s
+vector 6 Net.sys queueingTimeclass2:vector ETV
+attr interpolationmode none
+attr title "queueing time at the queue, vector"
+attr unit s
+vector 7 Net.sys responseTimeclass2:vector ETV
+attr interpolationmode none
+attr title "response time at end of service, vector"
+attr unit s
+vector 8 Net.sys extendedServiceTimeclass2:vector ETV
+attr interpolationmode none
+attr title "extended response time at end of service, vector"
+attr unit s
+vector 9 Net.sys queueingTimeclass3:vector ETV
+attr interpolationmode none
+attr title "queueing time at the queue, vector"
+attr unit s
+vector 10 Net.sys responseTimeclass3:vector ETV
+attr interpolationmode none
+attr title "response time at end of service, vector"
+attr unit s
+vector 11 Net.sys extendedServiceTimeclass3:vector ETV
+attr interpolationmode none
+attr title "extended response time at end of service, vector"
+attr unit s
+vector 12 Net.sys queueingTimeclass4:vector ETV
+attr interpolationmode none
+attr title "queueing time at the queue, vector"
+attr unit s
+vector 13 Net.sys responseTimeclass4:vector ETV
+attr interpolationmode none
+attr title "response time at end of service, vector"
+attr unit s
+vector 14 Net.sys extendedServiceTimeclass4:vector ETV
+attr interpolationmode none
+attr title "extended response time at end of service, vector"
+attr unit s
+vector 15 Net.sys queueingTimeclass5:vector ETV
+attr interpolationmode none
+attr title "queueing time at the queue, vector"
+attr unit s
+vector 16 Net.sys responseTimeclass5:vector ETV
+attr interpolationmode none
+attr title "response time at end of service, vector"
+attr unit s
+vector 17 Net.sys extendedServiceTimeclass5:vector ETV
+attr interpolationmode none
+attr title "extended response time at end of service, vector"
+attr unit s
+1	3400 1028416 6 113582 0 1586.994440372375 32768 0 0.733400464652 645.28717293045 98.441458707574
+3	1031816 1321194 11 131073 0.039030906718 1827.351298348265 32768 1.20329e-07 0.737437373922 1128.0641702823 128.77650399824
+0	2353010 911321 0 175599 0 2455.954047464106 32768 0 9 38066 87740
+1	3264331 1082159 113586 226958 1587.027863238982 3179.951769389604 32768 0 1.051392180853 651.02465068052 104.90334284987
+0	4346490 434591 175602 256873 2455.955268559783 3599.890057436821 15041 0 10 17952 43956
+1	4781081 285719 226962 256873 3179.965421099065 3599.890057436821 8643 0 1.08278984458 177.97295472869 29.813754930528
+2	5066800 533248 6 256872 0 3599.850563062805 18104 0 0.177328413067 39.453148679667 1.7055793956096
+3	5600048 1313757 131075 256875 1827.357093520158 3599.903328688499 31451 1.400644e-06 1.083625935954 1095.6766997332 135.93722836642
+4	6913805 742858 11 256873 0.039030906718 3599.890057436821 18104 1.449121e-06 0.243419442111 400.86015001263 17.730777605899
+5	7656663 742815 11 256873 0.039030906718 3599.890057436821 18104 1.449121e-06 0.243419442111 361.40700133297 14.412575424327
+6	8399478 464567 11 256838 0.039030906718 3599.230748734908 15209 0 0.256955015548 74.130662929734 4.1008325291144
+7	8864045 593511 13 256839 0.046902918118 3599.239182108065 14471 1.400644e-06 0.261425732557 207.89640651433 7.7869924963703
+8	9457556 593424 13 256839 0.046902918118 3599.239182108065 14471 1.400644e-06 0.220580942854 160.76384556534 4.3387562862832
+9	10050980 518676 13 256850 0.046902918118 3599.517424757391 15572 0 0.478999697811 307.29422869796 30.711844751154
+10	10569656 514556 15 256853 0.103271839744 3599.549752114034 12241 1.20329e-07 0.518134946738 529.71716364282 49.210007578274
+11	11084212 514577 15 256853 0.103271839744 3599.549752114034 12241 1.20329e-07 0.363452449076 427.60459832128 32.80963307476
+12	11598789 566420 15 256873 0.103271839744 3599.890057436821 15477 0 0.761090163323 764.90335461171 136.57155546371
+13	12165209 432679 17 256875 0.125313779211 3599.903328688499 10289 1.0427115e-05 0.799728044737 776.44002210369 130.97872591178
+14	12597888 432716 17 256875 0.125313779211 3599.903328688499 10289 9.224379e-06 0.737437373922 546.04673928283 69.547296167886
+15	13030604 338677 17 256809 0.125313779211 3598.745805277275 9817 0 1.08278984458 288.5033834206 60.068744348385
+16	13369281 382991 19 256811 0.130198811343 3598.747298120219 9114 1.034879e-06 1.083625935954 308.827127742 59.007228772331
+17	13752272 382927 19 256811 0.130198811343 3598.747298120219 9114 1.00151e-07 0.643541917025 71.867541013558 4.7177726208919
+

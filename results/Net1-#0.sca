@@ -1,0 +1,114 @@
+version 2
+run Net1-0-20200414-12:24:58-2821
+attr configname Net1
+attr datetime 20200414-12:24:58
+attr experiment Net1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Net
+attr processid 2821
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.class1.interArrivalTime exponential(0.20s)
+param **.class2.interArrivalTime exponential(0.25s)
+param **.class3.interArrivalTime exponential(0.30s)
+param **.class4.interArrivalTime exponential(0.35s)
+param **.class5.interArrivalTime exponential(0.40s)
+param **.sys.serviceTimeclass1 exponential(0.02s)
+param **.sys.serviceTimeclass2 exponential(0.01s)
+param **.sys.serviceTimeclass3 exponential(0.03s)
+param **.sys.serviceTimeclass4 exponential(0.04s)
+param **.sys.serviceTimeclass5 exponential(0.005s)
+param **.sys.policy 1
+
+scalar Net.sys extendedServiceTimeclass5:mean 0.0078854005939826
+attr interpolationmode none
+attr title "extended response time at end of service, mean"
+attr unit s
+scalar Net.sys extendedServiceTimeclass4:mean 0.053070924218372
+attr interpolationmode none
+attr title "extended response time at end of service, mean"
+attr unit s
+scalar Net.sys extendedServiceTimeclass3:mean 0.034932162267893
+attr interpolationmode none
+attr title "extended response time at end of service, mean"
+attr unit s
+scalar Net.sys extendedServiceTimeclass2:mean 0.011109380524175
+attr interpolationmode none
+attr title "extended response time at end of service, mean"
+attr unit s
+scalar Net.sys extendedServiceTimeclass1:mean 0.019962825968458
+attr interpolationmode none
+attr title "extended response time at end of service, mean"
+attr unit s
+scalar Net.sys responseTimeclass5:mean 0.033884916364055
+attr interpolationmode none
+attr title "response time at end of service, mean"
+attr unit s
+scalar Net.sys responseTimeclass4:mean 0.075463118097355
+attr interpolationmode none
+attr title "response time at end of service, mean"
+attr unit s
+scalar Net.sys responseTimeclass3:mean 0.043274010590869
+attr interpolationmode none
+attr title "response time at end of service, mean"
+attr unit s
+scalar Net.sys responseTimeclass2:mean 0.014366416039965
+attr interpolationmode none
+attr title "response time at end of service, mean"
+attr unit s
+scalar Net.sys responseTimeclass1:mean 0.022142076337419
+attr interpolationmode none
+attr title "response time at end of service, mean"
+attr unit s
+scalar Net.sys queueingTimeclass5:mean 0.02938814132837
+attr interpolationmode none
+attr title "queueing time at the queue, mean"
+attr unit s
+scalar Net.sys queueingTimeclass4:mean 0.049421939304239
+attr interpolationmode none
+attr title "queueing time at the queue, mean"
+attr unit s
+scalar Net.sys queueingTimeclass3:mean 0.019733767576288
+attr interpolationmode none
+attr title "queueing time at the queue, mean"
+attr unit s
+scalar Net.sys queueingTimeclass2:mean 0.0048741312992132
+attr interpolationmode none
+attr title "queueing time at the queue, mean"
+attr unit s
+scalar Net.sys queueingTimeclass1:mean 0.0021792503689608
+attr interpolationmode none
+attr title "queueing time at the queue, mean"
+attr unit s
+scalar Net.sys responseTime:mean 0.034627460253436
+attr interpolationmode none
+attr title "response time at end of service, mean"
+attr unit s
+scalar Net.sys queueingTime:mean 0.019874692006358
+attr interpolationmode none
+attr title "queueing time at the queue, mean"
+attr unit s
+scalar Net.sys busy:timeavg 0.36959255127877
+attr interpolationmode sample-hold
+attr title "server busy state, timeavg"
+scalar Net.sys qlen:mean 1.171704072455
+attr interpolationmode sample-hold
+attr title "queue length, mean"
+scalar Net.sink arrivedMsg:last 64219
+attr interpolationmode none
+attr title "number of arrived msg, last"
+scalar Net.sink lifetime:mean 0.034627460253436
+attr interpolationmode none
+attr title "lifetime of arrived msg, mean"
+attr unit s
+scalar Net.sink lifetime:max 1.083625935954
+attr interpolationmode none
+attr title "lifetime of arrived msg, max"
+attr unit s
+
